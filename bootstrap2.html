@@ -1,0 +1,253 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    background-color: black;
+}
+  
+  
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale==1">
+  <link rel="stylesheet" href="stylesheet.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+
+  <style>
+  
+</head>
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:1768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+</style>
+<link href="jarfile.css" rel="stylesheet">
+<body>
+
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="file:///C:/Users/GOOD/Desktop/bootpage1.html#">FionaZ</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Our Story</a></li>
+        <li><a href="file:///C:/Users/GOOD/Desktop/bootpage3.html##">Stores</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Eye colours </a></li>
+            <li><a href="#">Nail shades</a></li>
+            <li><a href="#">Foundation & Blushes C</a></li>
+            <li><a href="#">Lip Shades</a></li>
+            <li><a href="#">Brushes</a></li>
+            <li><a href="#">Skin Care </a></li>
+            <li><a href="#">Pedicure Sets</a></li>
+            <li><a href="#">Manicure Sets C</a></li>
+            <li><a href="#">Facial Sets</a></li>
+            <li><a href="#">Hair Spa</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+
+								<b>Enter Valid details</b>
+								                                                                 
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-12" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      <li class="dropdown">
+      
+          
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>New User</b> <span class="caret"></span></a>
+			<<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+
+								<b>Enter Valid details</b>
+								                                                                 
+								 <form class="form" role="form" method="post" action="Registration" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="FirstName"> First Name : </label>
+											 <input type="text" class="form-control" id="FirstName" placeholder="First Name :" required>
+										</div>
+
+										<div class="form-group">
+											 <label class="sr-only" for="LastName"> Last Name : </label>
+											 <input type="text" class="form-control" id="LastName" placeholder="Last Name : " required>
+
+                                                                                <div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                                       
+                                             
+										</div>
+                                                                                <div class="form-group">
+											 <label class="sr-only" for="Telephone number">Telephone Number :</label>
+											 <input type="text" class="form-control" id="Phone number" placeholder="Telephone Number :" required>
+                                                                       
+                                             
+										</div>
+                                                                                <div class="form-group">
+											 <label class="sr-only" for="Address"> Billing Address :</label>
+											 <input type="text" class="form-control" id="Address" placeholder="Billing Address :" required>
+                                                                       
+                                             
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Register</button>
+										</div>
+										
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+</body>
+<body>
+<img src="fionaz.jpg"  style="width:1310px ; margin :auto ;height:428px;">
+</body>
+
+  </header>
+    
+<div class="col-sm-4"><h1 style="font-family:MingLiU;font-size:200%;"><b>  Who Are We </b> </h1> </div>
+
+{    <div class="col-sm-4"><h1 style="font-family:MingLiU;font-size:200%;"><b> What Makes up Fionaz<b></h1> 
+ <p style="font-family:MingLiU;">Fionaz is the world’s leading professional makeup authority because of our unrivalled expertise in makeup <strong>ARTISTRY</strong>.</p>
+<p style="font-family:MingLiU;">Fionaz celebrates diversity and INDIVIDUALITY  we are for All Ages, All Races, All Sexes.</p>
+<p style="font-family:MingLiU;">Fionaz </strong>is a proud  COMMUNITY of professional makeup artists working together to bring our vision to life.</p>
+<p style="font-family:MingLiU;">Fionaz</strong> is at the forefront of fashion <strong>TRENDSETTING</strong>, collaborating with leading talents from fashion, art and popular culture. Our Artists create trends backstage at fashion weeks around the world.</p>
+<p style="font-family:MingLiU;">Fionaz</strong> believes in <strong>SOCIAL RESPONSIBILITY</strong>, with initiatives such as VIVA GLAM and the Fionaz AIDS Fund at the heart and soul of our unique culture</p>
+ </b>
+</div>}
+     
+    <div class="col-sm-4"><h1 style="font-family:MingLiU;font-size:200%;" > <b>  Birth of a Cult - From Wow to Now </b> </h1>
+<p style="font-family:MingLiU;">All Ages, All Races, All Sexes A professional makeup brand setting trends backstage at fashion weeks around the world. Today, Fionaz means so many things to its <strong>millions of fans in every corner of the planet, but a global beauty phenomenon has to begin somewhere.</p>
+<p style="font-family:MingLiU;">Make-Up Art Cosmetics started life in Chennai , India. Makeup artist and photographer Tony and salon owner Fiona became frustrated by the lack of makeup that photographed well, so they decided to create their own. At first, they made the cosmetics in their kitchen and sold them straight from the salon to fellow makeup artists, as well as models and photographers. Soon, stylists and fashion editors got in on the action. As the magazine credits racked up and word-of-mouth popularity grew, the duo launched Fionaz in March 1984 from a counter in a Chennai department store.</p>
+<p style="font-family:MingLiU;">Their approach was chic utility, with the makeup coming in black pots rather than compacts. While other major makeup brands at the time were predominantly skincare companies, Fionaz chose instead to establish itself as the ultimate colour authority. Professional makeup artists manned the counter, an industry first. One of the most popular offerings was an intense matte red lipstick, which got a boost with an appearance in a photo-shoot of the fast-rising Madonna, later seen wearing a fionaz T-shirt.</p>
+ </b>  </div>
+  
+
+</html>
+
+
+
+
+
+</html>
+
